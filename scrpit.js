@@ -22,6 +22,9 @@ let cantDivisores=0;
     if(cantDivisores==2){
         return true
     }
-    
+
     return false
 }
+
+
+console.log.esPrimo(27)
