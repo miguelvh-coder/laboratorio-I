@@ -28,4 +28,4 @@ let cantDivisores=0;
 }
 
 
-console.log(esPrimo(12))
+console.log(esPrimo(222))
