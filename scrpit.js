@@ -1,7 +1,3 @@
-const cantidad = 5
-
-let i = 0 
-let primoTemp = 1
 
 while (i < cantidad){
 
@@ -28,4 +24,18 @@ let cantDivisores=0;
 }
 
 
-console.log(esPrimo(27))
+const cantidad = 15
+
+let i = 0 
+let primoTemp = 1
+
+
+
+while (i < cantidad){
+
+    if(esPrimo(primoTemp) && i > -1){
+        console.log(i+1,"->",primoTemp)
+        i++
+    }
+    primoTemp++
+}
