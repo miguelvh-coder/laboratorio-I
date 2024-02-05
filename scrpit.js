@@ -5,8 +5,9 @@ let primoTemp = 1
 
 while (i < cantidad){
 
+    if(esPrimo(primoTemp))
 
-
+    primoTemp++
 }
 
 const esPrimo = primo => {
@@ -27,4 +28,4 @@ let cantDivisores=0;
 }
 
 
-console.log.esPrimo(27)
+console.log(esPrimo(27))
